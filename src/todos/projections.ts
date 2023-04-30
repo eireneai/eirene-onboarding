@@ -15,7 +15,7 @@ import { TodoEvent } from './events.js'
 
 export const reduceLatestTodoTitles: Reducer<string[], TodoEvent> = (
   state,
-  action
+  event
 ) => {
   throw new Error('NotImplemented')
 }
@@ -39,7 +39,7 @@ export const LatestTodoTitlesProjection = Projection(
 
 export const reduceTodoTable: Reducer<TodoTable, TodoEvent> = (
   state,
-  action
+  event
 ) => {
   throw new Error('NotImplemented')
 }

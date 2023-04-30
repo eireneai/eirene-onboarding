@@ -41,11 +41,11 @@ Here are the recommended steps for completing the project:
 1) Run unit tests with `npm run test` - run these frequently to measure your progress
 2) Learn about immutablity and pure functions by implementing utility functions for structures in `src/data/struct.ts`
 3) Implement the Observable data structure that will serve as an event bus in `src/data/observable.ts`
-4) Learn about events and partial function application by implementing EventCreator in `src/core/event.ts`
+4) Learn about TS generics, and partial function application by implementing EventCreator in `src/core/event.ts`
 5) Learn about closures, reducers and projections by implementing Projection in `src/core/projection.ts`
 6) Learn about entities by implementing a Todo constructor in `src/todos/entities.ts`
 6) Solidify your understanding of reducers and projections by implementing the two projections described in `src/todos/projections.ts`
-7) When all tests pass, run the complete application with `npm run build && npm run start` and observe asynchronous interservice communication! 
+7) When all tests pass, run the complete application with `npm run build && npm run start` and observe asynchronous communication! 
 
 
 

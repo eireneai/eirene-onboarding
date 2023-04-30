@@ -23,10 +23,10 @@ export interface Event<T extends string, P extends AnyPayload> {
 export type AnyEvent = Event<string, AnyPayload>
 
 // EVENT CONSTRUCTORS
-// - An action creator is a constructor for a particular
-// type of action.
-// - Actions are always instantiated via the constructor
-// rather than directly.
+// - An event constructor builds a particular
+// type of event
+// - events are always instantiated via the constructor
+// rather than directly
 
 export interface EventConstructor<
   T extends string,

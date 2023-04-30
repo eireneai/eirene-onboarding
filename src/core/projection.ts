@@ -11,7 +11,7 @@ export interface Reducer<S, A> {
 // PROJECTION
 // - a projection maintains a state (S) that can be accessed
 // via getState
-// - the state can be updated by calling processAction and
+// - the state can be updated by calling processEvent and
 // providing an event (A)
 
 export interface Projection<S, A> {
@@ -33,7 +33,7 @@ export function Projection<S, A>(
   return (initialState) => {
     let state = initialState
     return {
-      processEvent: (action) => {
+      processEvent: (event) => {
         throw new Error('NotImplemented')
       },
       getState: () => {
