@@ -5,6 +5,12 @@
 // return a new record and never modify the original record  
 // https://redux.js.org/usage/structuring-reducers/immutable-update-patterns
 
+// PURE FUNCTIONS
+// all these functions should also be pure functions, meaning
+// - they depend only on the data provided as parameters
+// - they do not touch mutable state in any way 
+// - they always return the same value given the same parameters
+
 // TODO: implement immutable removeAt
 // - this function should remove the target key from a
 // provided record

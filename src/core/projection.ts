@@ -13,7 +13,8 @@ export interface Reducer<S, A> {
 // via getState
 // - the state can be updated by calling processEvent and
 // providing an event (A)
-// - detailed explanation of projections (dont get hung up on the c# code): 
+// - detailed explanation of projections (stop at code example, 
+// will return later): 
 // https://www.youtube.com/watch?v=bTRjO6JK4Ws
 
 export interface Projection<S, A> {
@@ -23,13 +24,11 @@ export interface Projection<S, A> {
 
 // TODO: implement the projection constructor
 // - this function should build an instance of a projection
-// - use closure to encapsulate a mutable variable that
-// contains the current state
+// - again, use a closure to encapsulate the mutable variable
+// that contains the current state
 // - initialize the variable with the provided initialState
 // - processEvent should use the provided reducer to 'step'
 // the value of the state forward
-// - simple description of closure:
-// https://levelup.gitconnected.com/closures-first-class-and-higher-order-functions-2dc97dc89cd8
 
 export function Projection<S, A>(
   reducer: Reducer<S, A>

@@ -12,7 +12,10 @@ import { TodoEvent } from './events.js'
 // response to TodoAdded events
 // - use switch case to exhaustively match all possible tags:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
-
+// - hint: return to the projection video and take a look
+// at the code derek has written in the ReceiveEvent method 
+// at around 7:40 - the reducer will have a similar structure
+// https://www.youtube.com/watch?v=bTRjO6JK4Ws
 export const reduceLatestTodoTitles: Reducer<string[], TodoEvent> = (
   state,
   event

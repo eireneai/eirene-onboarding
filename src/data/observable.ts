@@ -28,6 +28,9 @@ export interface Observable<A> {
 // - the observable should encapsulate two mutable lists,
 // one for all values that have been dispatched, and one
 // for all listeners that have been added
+// - use a closure to encapsulate this state
+// - simple description of closure:
+// https://levelup.gitconnected.com/closures-first-class-and-higher-order-functions-2dc97dc89cd8
 // - when a listener is added, add it to the list of listeners
 // - in addition to registering a new listener, we should also
 // replay all the past events to each newly registered listener,
