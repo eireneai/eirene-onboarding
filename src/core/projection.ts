@@ -3,6 +3,8 @@
 // and returns a new state
 // - this is the function accepted by Array.reduce:
 // https://www.w3schools.com/jsref/jsref_reduce.asp
+// - detailed explanation:
+// https://dev.to/reedbarger/what-is-a-reducer-in-javascript-a-complete-introduction-with-examples-ip1
 
 export interface Reducer<S, A> {
   (s: S, a: A): S
