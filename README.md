@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+Make sure node and npm are installed on your machine.
+
 Run `npm install` to install node dependencies.
 
 Run `npm run test` to run unit tests.
