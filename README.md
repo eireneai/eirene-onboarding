@@ -31,7 +31,7 @@ These services are the three services implemented in the `src/apps` folder:
 2) Web API: Allow users to add, update and remove todos by sending requests to an API 
 3) Newsletter: Increases engagement by periodically sending an email that lists the titles of recently added todos 
 
-These three services will communicate asynchronously via an event bus. The web API will publish events to the bus and the other two services must update their own states in response.
+These three services will communicate asynchronously via an event bus. The web API will publish events to the bus and the other two services must update their own states in response. To see how these services are wired together, see `src/main.ts`.
 
 ## Requirements
 
