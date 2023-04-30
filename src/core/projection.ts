@@ -15,8 +15,7 @@ export interface Reducer<S, A> {
 // via getState
 // - the state can be updated by calling processEvent and
 // providing an event (A)
-// - detailed explanation of projections (stop at code example, 
-// will return later): 
+// - detailed explanation of projections (stop at code example): 
 // https://www.youtube.com/watch?v=bTRjO6JK4Ws
 
 export interface Projection<S, A> {
