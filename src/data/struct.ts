@@ -3,7 +3,7 @@
 // IMMUTABLE UPDATES IN TYPESCRIPT
 // all these functions should operate immutably meaning they always 
 // return a new record and never modify the original record  
-// https://redux.js.org/usage/structuring-reducers/immutable-update-patterns
+// https://wecodetheweb.com/2016/02/12/immutable-javascript-using-es6-and-beyond/
 
 // PURE FUNCTIONS
 // all these functions should also be pure functions, meaning
