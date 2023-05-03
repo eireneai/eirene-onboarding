@@ -56,5 +56,9 @@ Here are the recommended steps for completing the project:
 
 Once youre done, take a moment to observe the interactions between the different services by watching the console. Notice how sometimes the the webpage isnt in sync with its database because it hasnt been updated yet? This is called eventual consistency and its an important concept to understand when working with event driven systems. 
 
+## Submission
+
+To submit your work, delete the node modules folder, create a .zip archive of the project root directory and email it to your interviewer.
+
 Project bootstrapped using [NodeJS Starter ToolKit](https://github.com/vitorsalgado/create-nodejs-ts).  
 Visit the repository for more details.
